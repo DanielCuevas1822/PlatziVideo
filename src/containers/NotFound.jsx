@@ -17,7 +17,7 @@ const NotFound = () => (
       </span>
     </section>
     <div className="link-container">
-      <Link className="more-link">Regresa al Home</Link>
+      <Link to="/" className="more-link">Regresa al Home</Link>
     </div>
   </React.Fragment>
 );
