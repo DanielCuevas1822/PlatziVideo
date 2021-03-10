@@ -13,7 +13,7 @@ const initialState = {
     {
       id: 2,
       slug: "tvshow-2",
-      title: "In the Dark",
+      title: "In the Dark Atlantis",
       type: "Scripted",
       language: "English",
       year: 2009,
@@ -99,7 +99,7 @@ const initialState = {
     {
       id: 8,
       slug: "tvshow-8",
-      title: "Stargate Atlantis",
+      title: "Stargate Atlantis 2",
       type: "Action",
       language: "English",
       year: 2012,
@@ -181,6 +181,7 @@ const initialState = {
         "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     },
   ],
+  results: [],
 };
 const composeEnhancers =
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
